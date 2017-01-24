@@ -6,7 +6,7 @@
             <td>Kode Buku</td>
             <td>Judul</td>
             <td>Pengarang</td>
-            <td>Klasifikasi</td>
+            <td>Klasifikasi Buku</td>
         </tr>
     </thead>
     <?php $no=0; foreach($buku as $row): $no++;?>
