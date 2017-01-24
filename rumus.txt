@@ -1,0 +1,23 @@
+1. rumus hitung hari :
+//akumulasi / 7;
+$bil = 101/7;
+$bilround =  $bil-round($bil);
+$bilkali = $bilround * 7;
+echo $bilround;
+echo ' || ';
+echo $bilkali;
+
+2. perhitungan Motong GP
+(GP/30) x sisa hari
+
+(GP/173(1.5))x sisa jam)
+
+3. Reward Hadir
+- Hutang > dari 2 hari 
+  tidak dapat reward
+  
+- hutang = 1 hari
+  reward 1/2
+  
+4. Uang Transport
+Jumlah hutang hari * 5500
